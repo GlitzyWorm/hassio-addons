@@ -19,7 +19,4 @@ COPY run.sh /
 COPY config.js /
 RUN chmod a+x /run.sh
 
-
-
-
-
+CMD [ "/run.sh" ]
